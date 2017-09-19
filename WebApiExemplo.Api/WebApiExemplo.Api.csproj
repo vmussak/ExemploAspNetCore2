@@ -16,4 +16,9 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\WebApiExemplo.Core\WebApiExemplo.Core.csproj" />
+    <ProjectReference Include="..\WebApiExemplo.Repository\WebApiExemplo.Repository.csproj" />
+  </ItemGroup>
+
 </Project>
